@@ -1,11 +1,21 @@
 # MetrosCrypt
 ## Description
-Metros is for file encryption/decryption based on the cryptocode algorithm.<br>
-It is written in <a href="https://python.org">Python</a> 3.10.4 with the PyQt5 graphics library.<br>
+MetrosCrypt is for file encryption/decryption based on the <a href="https://pypi.org/project/cryptocode/">cryptocode</a> algorithm.<br>
+It is written in <a href="https://python.org">Python</a> <a href="https://www.python.org/downloads/release/python-3104/">3.10.4</a> with the <a href="https://pypi.org/project/PyQt5/">PyQt5</a> graphics library.<br>
 The program is distributed in forms as an open source python file and an executable file for Linux and Windows.<br>
+## Installation for linux
+<table>
+   <tr>
+    <th>Name of the executable file</th>
+    <th>Version</th>
+    <th>MD5</th>
+    <th>VirusTotal</th>
+    <th>Download</th>
+     
+   </tr>
+   <tr><td>MetrosCrypt</td><td>1.0</td><td>cf8bc8a3f536c76b0d3601f2556f3e30</td><td><a href="https://www.virustotal.com/gui/file/976468e744ab0785898b2a1b06638a7c70a86a8919c69fcecbe91b05b3dcae9b?nocache=1">VirusTotal</a></td></tr>
 
-
-
+  </table>
 
 
 
