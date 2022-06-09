@@ -50,6 +50,10 @@ When you hover over a program element, a hint will be displayed that this elemen
 </table>
 
 ## Installation for python3
+### Libraries
+- <a href="https://pypi.org/project/cryptocode/">CryptoCode</a>
+- <a href="https://pypi.org/project/PyQt5/">PyQt5</a>
+
 ```
 git clone https://github.com/John-MetrosSoftware/MetrosCrypt
 cd MetrosCrypt
@@ -57,9 +61,7 @@ pip3 install -r requirements.txt
 python3 MetrosCrypt.pyw
 ```
 
-### Libraries
-- <a href="https://pypi.org/project/cryptocode/">CryptoCode</a>
-- <a href="https://pypi.org/project/PyQt5/">PyQt5</a>
+
 
 
 ## Usage
