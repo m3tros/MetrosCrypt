@@ -57,6 +57,11 @@ pip3 install -r requirements.txt
 python3 MetrosCrypt.pyw
 ```
 
+### Libraries
+- <a href="https://pypi.org/project/cryptocode/">CryptoCode</a>
+- <a href="https://pypi.org/project/PyQt5/">PyQt5</a>
+
+
 ## Usage
 ### File Action
 This list contains two elements. Select the item you need.<br>
@@ -178,7 +183,7 @@ If, when comparing data from the password input lines and its confirmation, they
 - Failed to record the result.
 
 ### Unknown error
-If you have any problems with the program, <a href="https://github.com/John-MetrosSoftware/MetrosCrypt/blob/main/README.md#developer">write an email to the address below.</a>
+If you have any problems with the program, write an email to the address below.
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/107058068/172838488-e17908cc-de72-41a9-9250-ee21b51e055f.png" alt="MetrosCrypt">
 </p>
