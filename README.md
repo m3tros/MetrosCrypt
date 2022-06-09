@@ -90,6 +90,7 @@ The output file is the file in which the encrypted or decrypted value will be wr
 
 ### Password
 The password is needed to encrypt or decrypt the contents of the file.<br>
+If the decryption password is incorrect, an error will be displayed in red at the bottom.
 - Password can be a void.
 - You can also click on the button that is on the input line and show or hide password.
 <p align="center"> 
@@ -105,5 +106,70 @@ If the passwords are not equal to each other, an error will be displayed in red 
   <img src="https://user-images.githubusercontent.com/107058068/172832993-599e20ea-c87f-4d48-9d56-cb337e8744b5.png" alt="MetrosCrypt">
 </p>
 
+### Output result
+This checkbox is responsible for not recording the result of encryption or decryption, but simply displaying it on the screen.<br>
+Here the output file is not needed and it will not be needed.<br>
+If the contents of the file cannot be encrypted or decrypted, an error will be displayed in red at the bottom.<br>
+
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/107058068/172833779-bf808017-0c5b-416b-b5ba-ffe7a6259dac.png" alt="MetrosCrypt">
+</p>
+
+#### Encryption example
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/107058068/172834177-3d1284d6-8174-47b4-8835-7a6ec17c1c96.png" alt="MetrosCrypt">
+</p>
+
+#### Decryption example
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/107058068/172834390-74818807-0b54-4e0e-a866-a6e7dd24f019.png" alt="MetrosCrypt">
+</p>
+
+These examples use the text: __test__<br>
+And password: __123__<br>
+In the title of the program you can notice the format:  
+```
+[ACTION] - FILE PATH - PROGRAM INFO
+```
+```
+ACTION       - Encrypt or Decrypt.
+FILE PATH    - The path to the input file.
+PROGRAM INFO - Information about the program itself. 
+```
+## Possible errors
+
+### Encryption file
+
+- Apparently this file cannot be <b>encrypted</b>...
+
+### Decryption file
+
+- Apparently this file cannot be <b>decrypted</b>...
+
+### Input file
+Program could not find the input file.<br>
+- The <b>input</b> file could not be found...
+### Output file
+If the program could not find the output file.<br>
+- If you select <b>yes</b> then the result of encryption or decryption is recorded exactly the input file.<br>
+- If you select <b>no</b>, the window will simply close.
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/107058068/172836221-e9e61e59-f32a-4469-a03a-a8bcb3fe4086.png" alt="MetrosCrypt">
+</p> 
 
  
+ ### Confirm password
+ 
+If, when comparing data from the password input lines and its confirmation, they are not equal to each other.
+- Passwords don\'t match...
+
+
+### Writing or reading a file
+- Failed to record the result.
+
+### Unknown error
+If you have any problems with the program, write an email to the address below.
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/107058068/172838488-e17908cc-de72-41a9-9250-ee21b51e055f.png" alt="MetrosCrypt">
+</p>  
+
