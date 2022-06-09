@@ -201,7 +201,7 @@ The icon '1.ico' can be downloaded from the <a href="https://download.flaticon.c
 When making edits in the code or other changes, mark the author I want to know how the project is developing.
 
 ## Developer 
-Email    : wwwkali00312@gmail.com
+Email    : wwwkali00312@gmail.com<br>
 Telegram : https://t.me/metrossoftware
 
 
