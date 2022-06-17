@@ -217,7 +217,6 @@ When making edits in the code or other changes, mark the author I want to know h
 autopep8 MetrosCrypt.pyw --recursive --in-place
 ```
 ## Developer 
-Email    : wwwkali00312@gmail.com<br>
 Telegram : https://t.me/metrossoftware
 
 
