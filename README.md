@@ -13,6 +13,11 @@ The program is distributed in forms as an open source python file and an executa
 In executable files, the program is exclusively in English with a dark theme without the possibility of changing settings.
 When you hover over a program element, a hint will be displayed that this element should contain.
 
+## Other versions of the program
+- <a href="https://github.com/John-MetrosSoftware/MetrosCrypt">MetrosCrypt</a> (Current)
+- <a href="https://github.com/John-MetrosSoftware/MetrosCryptTerminal">MetrosCryptTerminal</a>
+- <a href="https://github.com/John-MetrosSoftware/MetrosCryptTerminalGUI">MetrosCryptTerminalGUI</a> 
+
 ## Installation for linux
 <table>
   <tr>
