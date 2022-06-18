@@ -12,7 +12,6 @@ import webbrowser
 from PyQt5.QtWidgets import *
 from PyQt5.QtCore import *
 from PyQt5.QtGui import *
-from PyQt5.QtPrintSupport import *
 
 __version__ = 1.1
 
