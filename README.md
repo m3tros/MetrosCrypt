@@ -199,8 +199,8 @@ autopep8 MetrosCrypt.pyw --recursive --in-place
 
 ## Update
 ### 1.1
-- <a href="">Added program menu.</a>
-- <a href="">Icons for buttons.</a>
+- <a href="https://github.com/John-MetrosSoftware/MetrosCrypt#menu">Added program menu.</a>
+- <a href="https://github.com/John-MetrosSoftware/MetrosCrypt#buttons">Icons for buttons.</a>
 
 ## Developer 
 Telegram : https://t.me/metrossoftware
