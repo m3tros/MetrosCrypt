@@ -107,12 +107,12 @@ If the contents of the file cannot be encrypted or decrypted, an error will be d
 
 #### Encryption example
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172834177-3d1284d6-8174-47b4-8835-7a6ec17c1c96.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/174428956-99bc1e48-1817-4817-88b3-b8a9a4b069c4.png" alt="MetrosCrypt">
 </p>
 
 #### Decryption example
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172834390-74818807-0b54-4e0e-a866-a6e7dd24f019.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/174428985-65c447c8-16ca-45e7-b22a-0fc8863b593c.png" alt="MetrosCrypt">
 </p>
 
 These examples use the text: __test__<br>
@@ -196,6 +196,12 @@ When making edits in the code or other changes, mark the author I want to know h
 ```
 autopep8 MetrosCrypt.pyw --recursive --in-place
 ```
+
+## Update
+### 1.1
+- <a href="">Added program menu.</a>
+- <a href="">Icons for buttons.</a>
+
 ## Developer 
 Telegram : https://t.me/metrossoftware
 
