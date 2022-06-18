@@ -8,7 +8,7 @@ MetrosCrypt is for file encryption/decryption based on the <a href="https://pypi
 It is written in <a href="https://python.org">Python</a> <a href="https://www.python.org/downloads/release/python-3104/">3.10.4</a> with the <a href="https://pypi.org/project/PyQt5/">PyQt5</a> graphics library.<br>
 The program is distributed in forms as an open source python file and an executable file for Linux and Windows.<br>
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172822319-d5e2fee6-7765-4644-ab1c-529d1ebfafde.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/174428533-86632a84-3765-4cdb-8bd4-cf984460dd23.png" alt="MetrosCrypt">
 </p>
 In executable files, the program is exclusively in English with a dark theme without the possibility of changing settings.
 When you hover over a program element, a hint will be displayed that this element should contain.
@@ -37,7 +37,28 @@ python3 MetrosCrypt.pyw
 
 
 ## Usage
-### File Action
+### Menu
+
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/107058068/174428573-47a5333c-a369-4d68-868b-08ecebde7920.png" alt="MetrosCrypt">
+</p>
+
+#### File
+- Quit - Exiting the program.
+
+
+#### Reference
+- <a href="https://github.com/John-MetrosSoftware/MetrosCrypt">Github</a>
+- <a href="https://pypi.org/project/cryptocode/">Cryptocode</a>
+- <a href="https://pypi.org/project/PyQt5/">Qt5
+- <a href="https://www.python.org/downloads/release/python-3104/">Python 3.10.4</a>
+- <a href="https://user-images.githubusercontent.com/107058068/174428649-31b95b9d-e9b1-4fcd-9e0f-b515e6dd7146.png">MetrosCrypt 1.1</a>
+<p align="center"> 
+  <img src="https://user-images.githubusercontent.com/107058068/174428649-31b95b9d-e9b1-4fcd-9e0f-b515e6dd7146.png" alt="MetrosCrypt">
+</p>
+
+
+### File action
 This list contains two elements. Select the item you need.<br>
 To decrypt the file, you do not need to re-enter the password, but in encryption it is needed to avoid problems.
 - Encryption file 
@@ -128,7 +149,7 @@ If everything is successful, a window with a message will open.
 </p>
 
 
- 
+
 
 ## Possible errors
 ### Encryption file
