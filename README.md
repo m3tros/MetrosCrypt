@@ -53,9 +53,6 @@ python3 MetrosCrypt.pyw
 - <a href="https://pypi.org/project/PyQt5/">Qt5
 - <a href="https://www.python.org/downloads/release/python-3104/">Python 3.10.4</a>
 - <a href="https://user-images.githubusercontent.com/107058068/174428649-31b95b9d-e9b1-4fcd-9e0f-b515e6dd7146.png">MetrosCrypt 1.1</a>
-<p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/174428649-31b95b9d-e9b1-4fcd-9e0f-b515e6dd7146.png" alt="MetrosCrypt">
-</p>
 
 
 ### File action
@@ -64,7 +61,7 @@ To decrypt the file, you do not need to re-enter the password, but in encryption
 - Encryption file 
 - Decryption file  
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172824359-093258f1-ff77-4733-b0a2-0cf73f9fb01c.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/174428773-cfb4bf01-c762-446c-8ccf-96b00457936f.png" alt="MetrosCrypt">
 </p>
 
 ### Input file
@@ -74,8 +71,8 @@ It is important to note that if the output file is not found, the program will a
 - You can enter the path to the file manually or double-click on the field or click on the button next to it.
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/107058068/172826639-8898d3b4-026a-4c51-b329-d6cc120df451.png" alt="MetrosCrypt">
-</p>
-
+</p> 
+  
 ### Output file
 The output file is the file in which the encrypted or decrypted value will be written, it is not so necessary so that the value can be written to the output file.
 - You can enter the path to the file manually or double-click on the field or click on the button next to it.
@@ -133,13 +130,7 @@ PROGRAM INFO — Information about the program itself.
 #### Buttons
 There are two buttons at the bottom. Depending on the action you choose to encrypt or decrypt the text of the first button, it will change, it is responsible for launching the algorithm. The second button is responsible for closing the main window.
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172839764-ecd568cd-05b6-4da8-a0f5-9d923d39a79c.png" alt="MetrosCrypt">
-</p>
-
-#### Links
-There are two links at the bottom, the first leads to this page, and the second to the pypi of the cryptocode algorithm.
-<p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172840751-df1be7b0-d176-4b2a-9e0a-a043e67f519c.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/174428839-119d82e7-a1da-4de8-bb25-c24362d64a90.png" alt="MetrosCrypt">
 </p>
 
 #### Messages
@@ -149,6 +140,7 @@ If everything is successful, a window with a message will open.
 </p>
 
 
+ 
 
 
 ## Possible errors
