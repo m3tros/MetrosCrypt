@@ -18,41 +18,8 @@ When you hover over a program element, a hint will be displayed that this elemen
 - <a href="https://github.com/John-MetrosSoftware/MetrosCryptTerminal">MetrosCryptTerminal</a>
 - <a href="https://github.com/John-MetrosSoftware/MetrosCryptTerminalGUI">MetrosCryptTerminalGUI</a> 
 
-## Installation for linux
-<table>
-  <tr>
-    <th>Name of the executable file</th>
-    <th>Version</th>
-    <th>MD5</th>
-    <th>VirusTotal</th>
-    <th>Download</th>
-  </tr>
-  <tr>
-    <td>MetrosCrypt</td>
-    <td>1.0</td>
-    <td>cf8bc8a3f536c76b0d3601f2556f3e30</td>
-    <td><a href="https://www.virustotal.com/gui/file/976468e744ab0785898b2a1b06638a7c70a86a8919c69fcecbe91b05b3dcae9b?nocache=1">VirusTotal</a></td>
-    <td><a href="https://github.com/John-MetrosSoftware/MetrosCrypt/releases/tag/MetrosCryptLinux">Download for linux</a></td>
-  </tr>
-</table>
 
-## Installation for windows
-<table>
-  <tr>
-    <th>Name of the executable file</th>
-    <th>Version</th>
-    <th>MD5</th>
-    <th>VirusTotal</th>
-    <th>Download</th>
-  </tr>
-  <tr>
-    <td>MetrosCrypt.exe</td>
-    <td>1.0</td>
-    <td>4fede90aa1f824304a741ed389b44905</td>
-    <td><a href="https://www.virustotal.com/gui/file-analysis/NGZlZGU5MGFhMWY4MjQzMDRhNzQxZWQzODliNDQ5MDU6MTY1NDcxMDMyMQ==">VirusTotal</a></td>
-    <td><a href="https://github.com/John-MetrosSoftware/MetrosCrypt/releases/tag/MetrosCryptWindows">Download for windows</a></td>
-  </tr>
-</table>
+
 
 ## Installation for python3
 ### Libraries
