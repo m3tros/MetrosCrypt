@@ -332,9 +332,9 @@ class Window(QWidget):
         action_python.triggered.connect(lambda: webbrowser.open_new_tab(
             'https://www.python.org/downloads/release/python-3104/'))
         action_metroscrypt = QAction(
-            QIcon(IconBase64.iconWindow()), '&MetrosCrypt 1.1', self)
+            QIcon(IconBase64.iconWindow()), '&{}'.format(__version__), self)
         action_metroscrypt.triggered.connect(lambda: QMessageBox.about(
-            self, 'MetrosCrypt {}'.format(str(__version__)), 'MetrosCrypt is for file encryption/decryption based on the cryptocode algorithm.\nIt is written in Python 3.10.4 with the PyQt5 graphics library.\n\nmetroscrypt1.1-18.06.2022'))
+            self, 'MetrosCrypt {}'.format(__version__), 'MetrosCrypt is for file encryption/decryption based on the cryptocode algorithm.\nIt is written in Python 3.10.4 with the PyQt5 graphics library.\n\nmetroscrypt1.1-18.06.2022'))
         menu_file = main_menu.addMenu('&File')
         menu_file.addAction(action_quit)
         menu_reference = main_menu.addMenu('&Reference')
