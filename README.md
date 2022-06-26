@@ -11,6 +11,8 @@ The program is distributed in forms as an open source python file.<br>
   <img src="https://user-images.githubusercontent.com/107058068/174428533-86632a84-3765-4cdb-8bd4-cf984460dd23.png" alt="MetrosCrypt">
 </p>
 
+__A detailed explanation of version `1.2` will be a little later due to technical problems.__
+
 
 ## Other versions of the program
 - <a href="https://github.com/John-MetrosSoftware/MetrosCrypt">MetrosCrypt</a> (Current)
