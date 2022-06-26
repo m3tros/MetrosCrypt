@@ -15,6 +15,7 @@ from PyQt5.QtGui import *
 
 __version__ = 1.2
 
+
 class IconBase64:
     '''
     The class responsible for the image. 
@@ -121,7 +122,7 @@ class Password(QLineEdit):
     Hide the icon if there is no text in the field.
     Well, if there is a text, then show it.
     '''
-    
+
     def checkingInput(self):
         if self.text() == '':
             self.show_password.setVisible(False)
@@ -345,13 +346,13 @@ class Window(QWidget):
         menu_reference.addAction(action_qt5)
         menu_reference.addSeparator()
         menu_reference.addAction(action_metroscrypt)
-    
+
     '''
     The function will be called if the user changes the value of the list.
     If the decryption option is selected, the password promotion widget will be blocked. 'he's not needed'.
     Well, if encrypted, the password summing widget will be unlocked.
     '''
-    
+
     def changeActions(self):
         if self.select_actions.currentText() == 'Encryption file':
             self.button_decrypt_encrypt.setText('&Encrypt')
@@ -366,7 +367,7 @@ class Window(QWidget):
     The file selection function it accepts the widget after selecting file.
     File replaces the text in the widget with the file name.
     '''
-    
+
     def selectFile(self, widget):
         options_filedialog = QFileDialog.Options()
         options_filedialog |= QFileDialog.DontUseNativeDialog
@@ -386,7 +387,7 @@ class Window(QWidget):
             self.output_file.setEnabled(True)
             self.button_output_file_select.setEnabled(True)
 
-    # Checking for a fool. 
+    # Checking for a fool.
     def summingAction(self):
         self.error_message.setText('\t')
         if os.path.isfile(self.input_file.text()) == False:
