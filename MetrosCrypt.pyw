@@ -15,7 +15,6 @@ from PyQt5.QtGui import *
 
 __version__ = 1.2
 
-
 class IconBase64:
     '''
     The class responsible for the image. 
@@ -334,7 +333,7 @@ class Window(QWidget):
         action_metroscrypt = QAction(
             QIcon(IconBase64.iconWindow()), '&MetrosCrypt {}'.format(__version__), self)
         action_metroscrypt.triggered.connect(lambda: QMessageBox.about(
-            self, 'MetrosCrypt {}'.format(__version__), 'MetrosCrypt is for file encryption/decryption based on the cryptocode algorithm.\nIt is written in Python 3.10.4 with the PyQt5 graphics library.\n\nmetroscrypt1.1-18.06.2022'))
+            self, 'MetrosCrypt {}'.format(__version__), 'MetrosCrypt is for file encryption/decryption based on the cryptocode algorithm.\nIt is written in Python 3.10.4 with the <a href=" ">PyQt5</a> graphics library.'))
         menu_file = main_menu.addMenu('&File')
         menu_file.addAction(action_quit)
         menu_reference = main_menu.addMenu('&Reference')
