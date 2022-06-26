@@ -6,12 +6,11 @@
 ## Description
 MetrosCrypt is for file encryption/decryption based on the <a href="https://pypi.org/project/cryptocode/">cryptocode</a> algorithm.<br>
 It is written in <a href="https://python.org">Python</a> <a href="https://www.python.org/downloads/release/python-3104/">3.10.4</a> with the <a href="https://pypi.org/project/PyQt5/">PyQt5</a> graphics library.<br>
-The program is distributed in forms as an open source python file and an executable file for Linux and Windows.<br>
+The program is distributed in forms as an open source python file.<br>
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/107058068/174428533-86632a84-3765-4cdb-8bd4-cf984460dd23.png" alt="MetrosCrypt">
 </p>
-In executable files, the program is exclusively in English with a dark theme without the possibility of changing settings.
-When you hover over a program element, a hint will be displayed that this element should contain.
+
 
 ## Other versions of the program
 - <a href="https://github.com/John-MetrosSoftware/MetrosCrypt">MetrosCrypt</a> (Current)
@@ -187,7 +186,7 @@ Adding an icon for the executable file. You can use yours.
 pyinstaller -F --icon=icon.ico MetrosCrypt.pyw
 ```
 The icon 'icon.ico' can be downloaded from the <a href="https://download.flaticon.com/ru/download/icon/7721624?icon_id=7721624&author=3428&team=3428&keyword=%D0%97%D0%B0%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C+%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD&pack=7721572&style=Mixed&style_id=1285&format=png&color=%23000000&colored=2&size=512%2C256%2C128%2C64%2C32%2C24%2C16&selection=1&premium=&type=standard&token=03AGdBq27PWtVknlV1cRpjntK0Skz1AKUs7v05aWKzNZG9F9F1yHLUbVoqqHLhDfpK8xmzCy_x9G2NGGQQSrw0vEChiPOHlZmgZPetu8P7LXSfDhcC8z3JA3jzq1jBOmu6HY2-HXP0KnM0xxGUS5jHMiLMzbL2MkqQXPH-m4qb5HotPEgIVxndwWTEd9Cj-1J23E1mzETB-PDKitdhrT1poO-OUZMn6frg7_UeNLZZ2sejSqPLt7Da9jwr6RR7QX6_Is5EtM6kMfgGbXU2Zua2mZ8_todQdwNcm9scGi5CBQIpE4L93P1NfJBx18LhAzLutDC1lev_cHJ2RbgXUzZHX9kgvAD7v9j5kz5gfzBOGTEQtgcqwXxNWv2uL_O3Lg341o1TADm083QAFiJrJmoI1fCR8NrnHKyCJ6A795xI84u7pleo2Mm6FwhdFTUic9VUNzFt-dzvOvu_IuxAoE2D_V0dAlI2uS5jIfbAC1NvlL7Vndmc7SyxN_Zhx_0AE3sjvlcsYs2ougeWHcb7-G9nWyM1HXC5iHxp2nIT_ubAyOzDywS_MRYPq3vShzWtSKeJFuLcxNt9s1aWx-OMjRAj0HWu4LODOx3aotaLOXvpyQU0G1K_g2qpB6w3lSb-8V44LTZB5S1JUM3EivTDeMuMxATLXSOzWV6EJ3mNW5Auh3zdvJPMBX5qpXtmt1NeSGJN4K7gO-Ze5Cfuo7522pm_Mrlhbl2IwCnist4R8Y7mFSUIFSOUtEodfyj7X3PlhzIHWJ967QOilHLyxzoJxB3xZYWDIkVZshyNuorF6PjgaRmNLO7SL5ZmrRLirjhDEPPsY53LZjY-_yvg6BfdFstRv2dtYsZhZV5vwelpC8RkPMYITKRk4xdb7ivHMRb7_ZBpw68wmh8G3Sor0H7uT6INgbtjzJm0q4P9GT6RqXzF0ubFQojUofLfBA2jO355l5unIkwQgh-xoxamxGoSRdvVL_6qAJG7Bk9yuqkbimEmCRuplzgwbtLy_KsyTyi6nsWrGnhjASAv4UyA_AieVjmThe-e7g6ZXzuPXCLGjsVKEjb4XE_cQ2m5n14jxx4B8FgRydFbueUa4E7fLh1koHFJvB_YJK8_8r8BwuwSia2Q5CXHOmKJwUiMC6tvnyBIgFAW4TiMapmX2jMXO9A67kUr6M80V2P7hWietInTDOnAykx5vG032oz4o41UdehHbd6fuRVXrAAK1f10MNfrGn9jOyZG2ELmGCvxVcnhw-aAlgPLjr3ZGbcZVRGsYX0BTlc-XptVKZfIKN9b1UZVAlCa4ZctuNrXk2JEAhrKvFKQ6Oa_mb62Vt3cY2xOk_57QEHp9P-eNzh02Fv3OxfMUFtrvTQLp35G8VIzfWmDFTi4sGbBvbi9PUhF1RXwG7kGDda87u9a6RyWW6z8BPyi4KI2TOfbthI9A-A-IJgZi16Qms0tI1GmccP_aXw1FpZEAbvX46MlBhOmJsIu9hE89YOhwc3vhYmP0itR79A1oJw_EMK87KR1DM-JB4MMpt8y0kR71vhJgtqHeUFO&search=%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA+%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D1%82%D1%8B%D0%B9">link</a>.<br>
-When making edits in the code or other changes, mark the author I want to know how the project is developing.
+
 ## PEP8
 <a href="https://pypi.org/project/autopep8/">autopep8</a> automatically formats Python code to conform to the PEP 8 style guide. It uses the pycodestyle utility to determine what parts of the code needs to be formatted. autopep8 is capable of fixing most of the formatting issues that can be reported by pycodestyle.
 ```
