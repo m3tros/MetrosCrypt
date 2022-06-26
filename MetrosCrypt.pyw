@@ -117,8 +117,11 @@ class Password(QLineEdit):
         self.show_password.setVisible(False)
         self.textChanged.connect(self.checkingInput)
 
-    # Hide the icon if there is no text in the field.
-    # Well, if there is a text, then show it.
+    '''
+    Hide the icon if there is no text in the field.
+    Well, if there is a text, then show it.
+    '''
+    
     def checkingInput(self):
         if self.text() == '':
             self.show_password.setVisible(False)
@@ -201,7 +204,6 @@ class Window(QWidget):
         self.initializingMenu()
 
     # Initializing Window Widgets.
-
     def initializingWidget(self):
         self.select_actions = QComboBox()
         self.select_actions.setToolTip('''<p align="left">Select one option:<br><br>
@@ -333,7 +335,7 @@ class Window(QWidget):
         action_metroscrypt = QAction(
             QIcon(IconBase64.iconWindow()), '&MetrosCrypt {}'.format(__version__), self)
         action_metroscrypt.triggered.connect(lambda: QMessageBox.about(
-            self, 'MetrosCrypt {}'.format(__version__), 'MetrosCrypt is for file encryption/decryption based on the cryptocode algorithm.\nIt is written in Python 3.10.4 with the <a href=" ">PyQt5</a> graphics library.'))
+            self, 'MetrosCrypt {}'.format(__version__), 'MetrosCrypt is for file encryption/decryption based on the cryptocode algorithm.\nIt is written in Python 3.10.4 with the PyQt5 graphics library.'))
         menu_file = main_menu.addMenu('&File')
         menu_file.addAction(action_quit)
         menu_reference = main_menu.addMenu('&Reference')
@@ -343,10 +345,13 @@ class Window(QWidget):
         menu_reference.addAction(action_qt5)
         menu_reference.addSeparator()
         menu_reference.addAction(action_metroscrypt)
-
-    # The function will be called if the user changes the value of the list.
-    # If the decryption option is selected, the password promotion widget will be blocked. 'he's not needed'.
-    # Well, if encrypted, the password summing widget will be unlocked.
+    
+    '''
+    The function will be called if the user changes the value of the list.
+    If the decryption option is selected, the password promotion widget will be blocked. 'he's not needed'.
+    Well, if encrypted, the password summing widget will be unlocked.
+    '''
+    
     def changeActions(self):
         if self.select_actions.currentText() == 'Encryption file':
             self.button_decrypt_encrypt.setText('&Encrypt')
@@ -357,8 +362,11 @@ class Window(QWidget):
             self.password_confirm_text.setDisabled(True)
             self.password_confirm.setDisabled(True)
 
-    # The file selection function it accepts the widget after selecting file.
-    # File replaces the text in the widget with the file name.
+    '''
+    The file selection function it accepts the widget after selecting file.
+    File replaces the text in the widget with the file name.
+    '''
+    
     def selectFile(self, widget):
         options_filedialog = QFileDialog.Options()
         options_filedialog |= QFileDialog.DontUseNativeDialog
@@ -378,7 +386,7 @@ class Window(QWidget):
             self.output_file.setEnabled(True)
             self.button_output_file_select.setEnabled(True)
 
-    # Checking for a fool. :).
+    # Checking for a fool. 
     def summingAction(self):
         self.error_message.setText('\t')
         if os.path.isfile(self.input_file.text()) == False:
