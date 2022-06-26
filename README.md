@@ -196,13 +196,7 @@ When making edits in the code or other changes, mark the author I want to know h
 ```
 autopep8 MetrosCrypt.pyw --recursive --in-place
 ```
-
-## Update
-### 1.0
-- <a href="https://github.com/John-MetrosSoftware/oldUpdate/tree/main/MetrosCrypt-1-0">version 1.0</a>
-### 1.1
-- <a href="https://github.com/John-MetrosSoftware/oldUpdate/tree/main/MetrosCrypt-1-1">version 1.1</a>
-
+ 
 ## Developer 
 Telegram : https://t.me/metrossoftware
 
