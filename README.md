@@ -177,7 +177,7 @@ If you have any problems with the program, write an email to the address below.
 </p>
 
 ## Compilation
-This version 1.0 is a version without saving any settings or changing them.<br>
+This version 1.2 is a version without saving any settings or changing them.<br>
 All software is provided in English with executable files, these parameters cannot be changed.<br>
 I usually compile my projects using the <a href="https://pypi.org/project/pyinstaller/">pyinstaller</a> compiler with the following parameters:
 ```
