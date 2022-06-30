@@ -194,9 +194,6 @@ The icon 'icon.ico' can be downloaded from the <a href="https://download.flatico
 ```
 autopep8 MetrosCrypt.pyw --recursive --in-place
 ```
- 
-## Developer 
-Telegram : https://t.me/metrossoftware
 
 
 
