@@ -112,7 +112,6 @@ class Password(QLineEdit):
         self.show_password = QAction(
             QIcon(IconBase64.showPassword()), '', self)
         self.show_password.setCheckable(True)
-
         self.addAction(self.show_password, QLineEdit.TrailingPosition)
         self.show_password.toggled.connect(self.showPassword)
         self.show_password.setVisible(False)
@@ -122,7 +121,6 @@ class Password(QLineEdit):
     Hide the icon if there is no text in the field.
     Well, if there is a text, then show it.
     '''
-
     def checkingInput(self):
         if self.text() == '':
             self.show_password.setVisible(False)
@@ -352,7 +350,6 @@ class Window(QWidget):
     If the decryption option is selected, the password promotion widget will be blocked. 'he's not needed'.
     Well, if encrypted, the password summing widget will be unlocked.
     '''
-
     def changeActions(self):
         if self.select_actions.currentText() == 'Encryption file':
             self.button_decrypt_encrypt.setText('&Encrypt')
@@ -367,7 +364,6 @@ class Window(QWidget):
     The file selection function it accepts the widget after selecting file.
     File replaces the text in the widget with the file name.
     '''
-
     def selectFile(self, widget):
         options_filedialog = QFileDialog.Options()
         options_filedialog |= QFileDialog.DontUseNativeDialog
@@ -417,7 +413,6 @@ class Window(QWidget):
     2 action if print result is false (by default, the value from the input file will be written to the output if print result is true, 
     instead of overwriting the value to the output file, it will output the result in the window.
     '''
-
     def algorithmEncryptionDecryption(self, action, print_result=False):
         if action == 'encrypt':
             self.result_algorithm = cryptocode.encrypt(
