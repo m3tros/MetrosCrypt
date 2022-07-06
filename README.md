@@ -24,8 +24,8 @@ The program is distributed in forms as an open source python file.<br>
 
 ## Installation for python3
 ### Libraries
-- <a href="https://pypi.org/project/cryptocode/">CryptoCode</a>
-- <a href="https://pypi.org/project/PyQt5/">PyQt5</a>
+- <a href="https://pypi.org/project/cryptocode/">cryptocode</a>
+- <a href="https://pypi.org/project/PyQt5/">pyqt5</a>
 
 ```
 git clone https://github.com/John-MetrosSoftware/MetrosCrypt
@@ -39,7 +39,6 @@ python3 MetrosCrypt.pyw
 
 ## Usage
 ### Menu
-
 <p align="center"> 
   <img src="https://user-images.githubusercontent.com/107058068/177597556-a93a9e33-78db-4f0d-a362-b090817b9169.png" alt="MetrosCrypt">
 </p>
@@ -47,13 +46,12 @@ python3 MetrosCrypt.pyw
 #### File
 - Quit - Exiting the program.
 
-
 #### Reference
 - <a href="https://github.com/John-MetrosSoftware/MetrosCrypt">Github</a>
 - <a href="https://pypi.org/project/cryptocode/">Cryptocode</a>
 - <a href="https://pypi.org/project/PyQt5/">Qt5
 - <a href="https://www.python.org/downloads/release/python-3104/">Python 3.10.4</a>
-- <a href="https://user-images.githubusercontent.com/107058068/174428649-31b95b9d-e9b1-4fcd-9e0f-b515e6dd7146.png">MetrosCrypt 1.1</a>
+- <a href="https://user-images.githubusercontent.com/107058068/177601775-e9b9a168-10eb-4fca-a9a6-cbe9cc11defb.png">MetrosCrypt 1.2</a>
 
 
 ### File action
@@ -172,11 +170,11 @@ If, when comparing data from the password input lines and its confirmation, they
 ### Unknown error
 If you have any problems with the program, write an email to the address below.
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172838488-e17908cc-de72-41a9-9250-ee21b51e055f.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177601518-adc14568-b5f7-40d1-8961-6c37805f8489.png" alt="MetrosCrypt">
 </p>
 
 ## Compilation
-This version 1.2 is a version without saving any settings or changing them.<br>
+This version `1.2` is a version without saving any settings or changing them.<br>
 All software is provided in English with executable files, these parameters cannot be changed.<br>
 I usually compile my projects using the <a href="https://pypi.org/project/pyinstaller/">pyinstaller</a> compiler with the following parameters:
 ```
