@@ -8,10 +8,10 @@ MetrosCrypt is for file encryption/decryption based on the <a href="https://pypi
 It is written in <a href="https://python.org">Python</a> <a href="https://www.python.org/downloads/release/python-3104/">3.10.4</a> with the <a href="https://pypi.org/project/PyQt5/">PyQt5</a> graphics library.<br>
 The program is distributed in forms as an open source python file.<br>
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/174428533-86632a84-3765-4cdb-8bd4-cf984460dd23.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177595608-46573ce5-1c76-430e-8858-5b0ded337d02.png" alt="MetrosCrypt">
 </p>
 
-__A detailed explanation of version `1.2` will be a little later due to technical problems.__
+ 
 
 
 ## Other versions of the program
@@ -41,7 +41,7 @@ python3 MetrosCrypt.pyw
 ### Menu
 
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/174428573-47a5333c-a369-4d68-868b-08ecebde7920.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177597556-a93a9e33-78db-4f0d-a362-b090817b9169.png" alt="MetrosCrypt">
 </p>
 
 #### File
@@ -62,7 +62,7 @@ To decrypt the file, you do not need to re-enter the password, but in encryption
 - Encryption file 
 - Decryption file  
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/174428773-cfb4bf01-c762-446c-8ccf-96b00457936f.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177598419-d68e3209-4ee6-4826-9295-782a2f08280a.png" alt="MetrosCrypt">
 </p>
 
 ### Input file
@@ -71,14 +71,14 @@ If the input file is not found, then an error about not finding the input file w
 It is important to note that if the output file is not found, the program will ask can the resulting output file be recorded?
 - You can enter the path to the file manually or double-click on the field or click on the button next to it.
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172826639-8898d3b4-026a-4c51-b329-d6cc120df451.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177598738-acb5cbf8-36b0-4663-8005-3b6802afec1a.png" alt="MetrosCrypt">
 </p> 
   
 ### Output file
 The output file is the file in which the encrypted or decrypted value will be written, it is not so necessary so that the value can be written to the output file.
 - You can enter the path to the file manually or double-click on the field or click on the button next to it.
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172827428-2b8337d3-df1a-4793-8128-bb192d38ded8.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177598844-6cf60533-8f26-4e01-94b9-36e958e0adf2.png" alt="MetrosCrypt">
 </p>
 
 ### Password
@@ -87,7 +87,7 @@ If the decryption password is incorrect, an error will be displayed in red at th
 - Password can be a void.
 - You can also click on the button that is on the input line and show or hide password.
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172828569-d1e4eaac-eb93-4612-8fd6-c3f72cbbc06d.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177598902-05a66607-62a7-42f0-bda8-42c8e3db7240.png" alt="MetrosCrypt">
 </p>
 
 ### Confirm Password
@@ -95,7 +95,7 @@ Summing up the password is a line in which the password must match the password 
 If the passwords are not equal to each other, an error will be displayed in red at the bottom.<br>
 - You can also click on the button that is on the input line and show or hide password.
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172832993-599e20ea-c87f-4d48-9d56-cb337e8744b5.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177598992-b263526a-356a-4dfe-a727-5d99df94fcae.png" alt="MetrosCrypt">
 </p>
 
 ### Output result
@@ -103,41 +103,40 @@ This checkbox is responsible for not recording the result of encryption or decry
 Here the output file is not needed and it will not be needed.<br>
 If the contents of the file cannot be encrypted or decrypted, an error will be displayed in red at the bottom.<br>
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172833779-bf808017-0c5b-416b-b5ba-ffe7a6259dac.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177599117-e963dcf6-ebfb-46f7-9bc5-b7db12ecdfcf.png" alt="MetrosCrypt">
 </p>
 
 #### Encryption example
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/174428956-99bc1e48-1817-4817-88b3-b8a9a4b069c4.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177599593-c0353d93-bb82-4530-ba66-440c923f49c3.png" alt="MetrosCrypt">
 </p>
 
 #### Decryption example
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/174428985-65c447c8-16ca-45e7-b22a-0fc8863b593c.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177599734-e9baddfd-e103-43ed-9280-7a4fed7338d9.png" alt="MetrosCrypt">
 </p>
 
-These examples use the text: __test__<br>
-Password: __123__<br>
+These examples use the text: `test`. Password: `12345678`.<br>
 In the title of the program you can notice the format:  
 ```
-[ACTION] — FILE PATH — PROGRAM INFO
+<action> — <file_path> — <program_info>
 ```
 ```
-ACTION       — Encrypt or Decrypt.
-FILE PATH    — The path to the input file.
-PROGRAM INFO — Information about the program itself. 
+action       — Encrypt or Decrypt.
+file_path    — Path to input file.
+program_info — Information about the program itself. 
 ```
 
 #### Buttons
 There are two buttons at the bottom. Depending on the action you choose to encrypt or decrypt the text of the first button, it will change, it is responsible for launching the algorithm. The second button is responsible for closing the main window.
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/174428839-119d82e7-a1da-4de8-bb25-c24362d64a90.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177600291-18a623ad-7694-47db-9744-d11f38efd597.png" alt="MetrosCrypt">
 </p>
 
 #### Messages
 If everything is successful, a window with a message will open.
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172839319-6a47160a-1d2c-4c39-9950-12d57498231d.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177600217-a33051c2-c93f-424e-b684-b3d2a380b448.png" alt="MetrosCrypt">
 </p>
 
 
@@ -160,7 +159,7 @@ If the program could not find the output file.<br>
 - If you select <b>yes</b> then the result of encryption or decryption is recorded exactly the input file.<br>
 - If you select <b>no</b>, the window will simply close.
 <p align="center"> 
-  <img src="https://user-images.githubusercontent.com/107058068/172836221-e9e61e59-f32a-4469-a03a-a8bcb3fe4086.png" alt="MetrosCrypt">
+  <img src="https://user-images.githubusercontent.com/107058068/177600161-25c74116-1ff5-4a0e-b774-38ef66013025.png" alt="MetrosCrypt">
 </p>
 
 ### Confirm password
@@ -182,6 +181,7 @@ All software is provided in English with executable files, these parameters cann
 I usually compile my projects using the <a href="https://pypi.org/project/pyinstaller/">pyinstaller</a> compiler with the following parameters:
 ```
 pyinstaller -F MetrosCrypt.pyw
+
 ```
 Adding an icon for the executable file. You can use yours.
 ```
