@@ -114,7 +114,9 @@ If the contents of the file cannot be encrypted or decrypted, an error will be d
   <img src="https://user-images.githubusercontent.com/107058068/177599734-e9baddfd-e103-43ed-9280-7a4fed7338d9.png" alt="MetrosCrypt">
 </p>
 
-The example uses text `test` and password `12345678`.<br>
+The example uses text `test` and password `12345678`.
+
+#### Title
 In the title of the program you can notice the format:  
 ```
 <action> — <file_path> — <program_info>
