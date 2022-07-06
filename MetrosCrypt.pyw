@@ -109,8 +109,7 @@ class Password(QLineEdit):
     def __init__(self):
         super().__init__()
         self.setEchoMode(QLineEdit.Password)
-        self.show_password = QAction(
-            QIcon(IconBase64.showPassword()), '', self)
+        self.show_password = QAction(QIcon(IconBase64.showPassword()), '', self)
         self.show_password.setCheckable(True)
         self.addAction(self.show_password, QLineEdit.TrailingPosition)
         self.show_password.toggled.connect(self.showPassword)
@@ -156,11 +155,9 @@ class OutputResultAlgorithm(QMainWindow):
         self.setGeometry(300, 300, 1000, 500)
         # self.setWindowFlags(Qt.WindowContextHelpButtonHint)
         if self.parent_mainwidget.select_actions.currentText() == 'Encryption file':
-            self.setWindowTitle('[Encrypt] — {} — MetrosCrypt (v. {}).'.format(
-                self.parent_mainwidget.input_file.text(), __version__))
+            self.setWindowTitle('[Encrypt] — {} — MetrosCrypt (v. {}).'.format(self.parent_mainwidget.input_file.text(), __version__))
         elif self.parent_mainwidget.select_actions.currentText() == 'Decryption file':
-            self.setWindowTitle('[Decrypt] — {} — MetrosCrypt (v. {}).'.format(
-                self.parent_mainwidget.input_file.text(), __version__))
+            self.setWindowTitle('[Decrypt] — {} — MetrosCrypt (v. {}).'.format(self.parent_mainwidget.input_file.text(), __version__))
 
     # Centering window.
     def centerWindow(self):
@@ -172,8 +169,7 @@ class OutputResultAlgorithm(QMainWindow):
     # Main widgets of the current window.
     def mainWidgets(self):
         main_widget = QWidget()
-        text_algorithm_result = QTextEdit(
-            str(self.parent_mainwidget.result_algorithm))
+        text_algorithm_result = QTextEdit(str(self.parent_mainwidget.result_algorithm))
         text_algorithm_result.setReadOnly(True)
         hbox = QHBoxLayout()
         hbox.addWidget(text_algorithm_result)
@@ -216,17 +212,12 @@ class Window(QWidget):
   If the program does not detect the input file, an error will be displayed:<br><br>
   &nbsp;&nbsp;&nbsp;&nbsp;<font color="#ff0000">The <u>input</u> file could not be found...</font>
 </p>''')
-        self.input_file.setPlaceholderText(
-            'Enter name of input file or click on button next to it...')
-        self.input_file.clicked.connect(
-            lambda: self.selectFile(self.input_file))
+        self.input_file.setPlaceholderText('Enter name of input file or click on button next to it...')
+        self.input_file.clicked.connect(lambda: self.selectFile(self.input_file))
         self.button_input_file_select = QPushButton()
-        self.button_input_file_select.setToolTip(
-            '''<p align="left">Click to select the <u>input</u> file...</p>''')
-        self.button_input_file_select.setIcon(
-            self.style().standardIcon(QStyle.SP_FileIcon))
-        self.button_input_file_select.clicked.connect(
-            lambda: self.selectFile(self.input_file))
+        self.button_input_file_select.setToolTip('''<p align="left">Click to select the <u>input</u> file...</p>''')
+        self.button_input_file_select.setIcon(self.style().standardIcon(QStyle.SP_FileIcon))
+        self.button_input_file_select.clicked.connect(lambda: self.selectFile(self.input_file))
         hbox_input_file = QHBoxLayout()
         hbox_input_file.addWidget(self.input_file)
         hbox_input_file.addWidget(self.button_input_file_select)
@@ -238,17 +229,12 @@ class Window(QWidget):
   If the input file field is empty, the program will request an action to replace the result in the input file.<br><br>
   If you ticked the output of the algorithm result, then the input file is simply not needed. The result is simply displayed in the window.
 </p>''')
-        self.output_file.setPlaceholderText(
-            'Enter name of output file or click on button next to it...')
-        self.output_file.clicked.connect(
-            lambda: self.selectFile(self.output_file))
+        self.output_file.setPlaceholderText('Enter name of output file or click on button next to it...')
+        self.output_file.clicked.connect(lambda: self.selectFile(self.output_file))
         self.button_output_file_select = QPushButton()
-        self.button_output_file_select.setToolTip(
-            '''<p align="left">Click to select the <u>output</u> file...</p>''')
-        self.button_output_file_select.setIcon(
-            self.style().standardIcon(QStyle.SP_FileIcon))
-        self.button_output_file_select.clicked.connect(
-            lambda: self.selectFile(self.output_file))
+        self.button_output_file_select.setToolTip('''<p align="left">Click to select the <u>output</u> file...</p>''')
+        self.button_output_file_select.setIcon(self.style().standardIcon(QStyle.SP_FileIcon))
+        self.button_output_file_select.clicked.connect(lambda: self.selectFile(self.output_file))
         hbox_output_file = QHBoxLayout()
         hbox_output_file.addWidget(self.output_file)
         hbox_output_file.addWidget(self.button_output_file_select)
@@ -268,10 +254,8 @@ class Window(QWidget):
   And if you decrypt the file, there is no point in confirming the password, so the line will be blocked.
 </p>''')
         self.password_confirm.setPlaceholderText('Confirm password...')
-        self.output_result = QCheckBox(
-            'Output result without replacing value in file.')
-        self.output_result.setToolTip(
-            '''<p align="left">If you enable this option for encrypted file or decryption, then the output file is not needed because the program takes the contents of the input file encrypts/decrypts and outputs the result in the window.</p>''')
+        self.output_result = QCheckBox('Output result without replacing value in file.')
+        self.output_result.setToolTip('''<p align="left">If you enable this option for encrypted file or decryption, then the output file is not needed because the program takes the contents of the input file encrypts/decrypts and outputs the result in the window.</p>''')
         self.output_result.clicked.connect(self.changeOutputResult)
         self.error_message = QLabel('\t')
         self.error_message.setStyleSheet('color:#ff0000')
@@ -289,14 +273,11 @@ class Window(QWidget):
         self.grid.addWidget(self.output_result, 6, 1)
         self.grid.addWidget(self.error_message, 7, 1)
         self.button_decrypt_encrypt = QPushButton('&Encrypt')
-        self.button_decrypt_encrypt.setIcon(
-            QIcon(self.style().standardIcon(QStyle.SP_DialogOkButton)))
-        self.button_decrypt_encrypt.setToolTip(
-            'Click to confirm the action...')
+        self.button_decrypt_encrypt.setIcon(QIcon(self.style().standardIcon(QStyle.SP_DialogOkButton)))
+        self.button_decrypt_encrypt.setToolTip('Click to confirm the action...')
         self.button_decrypt_encrypt.clicked.connect(self.summingAction)
         button_cancel = QPushButton('&Cancel')
-        button_cancel.setIcon(
-            QIcon(self.style().standardIcon(QStyle.SP_DialogNoButton)))
+        button_cancel.setIcon(QIcon(self.style().standardIcon(QStyle.SP_DialogNoButton)))
         button_cancel.setToolTip('Click to close the program window...')
         button_cancel.clicked.connect(lambda: sys.exit())
         hbox = QHBoxLayout()
@@ -313,28 +294,19 @@ class Window(QWidget):
     # Program menu initialization.
     def initializingMenu(self):
         main_menu = self.parent_mainwindow.menuBar()
-        action_quit = QAction(QIcon(self.style().standardIcon(
-            QStyle.SP_DialogCancelButton)), '&Quit', self)
+        action_quit = QAction(QIcon(self.style().standardIcon(QStyle.SP_DialogCancelButton)), '&Quit', self)
         action_quit.setShortcut('Ctrl+Q')
         action_quit.triggered.connect(qApp.quit)
         action_git = QAction(QIcon(IconBase64.github()), '&Github', self)
-        action_git.triggered.connect(lambda: webbrowser.open_new_tab(
-            'https://github.com/John-MetrosSoftware/MetrosCrypt'))
-        action_cryptocode = QAction(
-            QIcon(IconBase64.pypi()), '&Cryptocode', self)
-        action_cryptocode.triggered.connect(
-            lambda: webbrowser.open_new_tab('https://pypi.org/project/cryptocode/'))
+        action_git.triggered.connect(lambda: webbrowser.open_new_tab('https://github.com/John-MetrosSoftware/MetrosCrypt'))
+        action_cryptocode = QAction(QIcon(IconBase64.pypi()), '&Cryptocode', self)
+        action_cryptocode.triggered.connect(lambda: webbrowser.open_new_tab('https://pypi.org/project/cryptocode/'))
         action_qt5 = QAction(QIcon(IconBase64.qt5()), '&Qt5', self)
-        action_qt5.triggered.connect(
-            lambda: webbrowser.open_new_tab('https://pypi.org/project/PyQt5/'))
-        action_python = QAction(
-            QIcon(IconBase64.python()), '&Python 3.10.4', self)
-        action_python.triggered.connect(lambda: webbrowser.open_new_tab(
-            'https://www.python.org/downloads/release/python-3104/'))
-        action_metroscrypt = QAction(
-            QIcon(IconBase64.iconWindow()), '&MetrosCrypt {}'.format(__version__), self)
-        action_metroscrypt.triggered.connect(lambda: QMessageBox.about(
-            self, 'MetrosCrypt {}'.format(__version__), 'MetrosCrypt is for file encryption/decryption based on the cryptocode algorithm.\nIt is written in Python 3.10.4 with the PyQt5 graphics library.'))
+        action_qt5.triggered.connect(lambda: webbrowser.open_new_tab('https://pypi.org/project/PyQt5/'))
+        action_python = QAction(QIcon(IconBase64.python()), '&Python 3.10.4', self)
+        action_python.triggered.connect(lambda: webbrowser.open_new_tab('https://www.python.org/downloads/release/python-3104/'))
+        action_metroscrypt = QAction(QIcon(IconBase64.iconWindow()), '&MetrosCrypt {}'.format(__version__), self)
+        action_metroscrypt.triggered.connect(lambda: QMessageBox.about(self, 'MetrosCrypt {}'.format(__version__), 'MetrosCrypt is for file encryption/decryption based on the cryptocode algorithm.\nIt is written in Python 3.10.4 with the PyQt5 graphics library.'))
         menu_file = main_menu.addMenu('&File')
         menu_file.addAction(action_quit)
         menu_reference = main_menu.addMenu('&Reference')
@@ -367,8 +339,7 @@ class Window(QWidget):
     def selectFile(self, widget):
         options_filedialog = QFileDialog.Options()
         options_filedialog |= QFileDialog.DontUseNativeDialog
-        file_name, _ = QFileDialog.getOpenFileName(
-            self, '', '', '', options=options_filedialog)
+        file_name, _ = QFileDialog.getOpenFileName(self, '', '', '', options=options_filedialog)
         if file_name:
             widget.setText(str(file_name))
 
@@ -387,13 +358,11 @@ class Window(QWidget):
     def summingAction(self):
         self.error_message.setText('\t')
         if os.path.isfile(self.input_file.text()) == False:
-            self.error_message.setText(
-                'The <u>input</u> file could not be found...\t')
+            self.error_message.setText('The <u>input</u> file could not be found...\t')
             return
         if self.select_actions.currentText() == 'Encryption file':
             if self.output_result.isChecked() == True:
-                self.algorithmEncryptionDecryption(
-                    action='encrypt', print_result=True)
+                self.algorithmEncryptionDecryption(action='encrypt', print_result=True)
             else:
                 if self.password.text() != self.password_confirm.text():
                     self.error_message.setText('Passwords don\'t match...\t')
@@ -401,8 +370,7 @@ class Window(QWidget):
                 self.algorithmEncryptionDecryption(action='encrypt')
         if self.select_actions.currentText() == 'Decryption file':
             if self.output_result.isChecked() == True:
-                self.algorithmEncryptionDecryption(
-                    action='decrypt', print_result=True)
+                self.algorithmEncryptionDecryption(action='decrypt', print_result=True)
             else:
                 self.algorithmEncryptionDecryption(action='decrypt')
 
@@ -418,15 +386,12 @@ class Window(QWidget):
             self.result_algorithm = cryptocode.encrypt(
                 open(self.input_file.text(), encoding='utf-8').read(), self.password.text())
             if self.result_algorithm == False:
-                self.error_message.setText(
-                    'Apparently this file cannot be <u>encrypted</u>...\t')
+                self.error_message.setText('Apparently this file cannot be <u>encrypted</u>...\t')
                 return
         if action == 'decrypt':
-            self.result_algorithm = cryptocode.decrypt(
-                open(self.input_file.text(), encoding='utf-8').read(), self.password.text())
+            self.result_algorithm = cryptocode.decrypt(open(self.input_file.text(), encoding='utf-8').read(), self.password.text())
             if self.result_algorithm == False:
-                self.error_message.setText(
-                    'Apparently this file cannot be <u>decrypted</u>...\t')
+                self.error_message.setText('Apparently this file cannot be <u>decrypted</u>...\t')
                 return
         if print_result == False:
             current_file = self.output_file.text()
@@ -441,11 +406,9 @@ class Window(QWidget):
                     write_file.write(self.result_algorithm)
                     write_file.close()
                 except:
-                    self.error_message.setText(
-                        'Failed to record the result...')
+                    self.error_message.setText('Failed to record the result...')
                 else:
-                    QMessageBox.information(
-                        self, 'MetrosCrypt', 'Successfully completed!')
+                    QMessageBox.information(self, 'MetrosCrypt', 'Successfully completed!')
         elif print_result == True:
             self.parent_mainwindow.setEnabled(False)
             OutputResultAlgorithm(self.parent_mainwindow, self).show()
@@ -456,8 +419,7 @@ class Window(QWidget):
 Do you want to write the result to the <u>input</u> file?<br><br>
 File: (<b>{}</b>).<br><br>
 <b>Important if you overwrite the file, the previous value will not be returned.</b>'''.format(self.input_file.text())
-        message_dialog = QMessageBox.question(
-            self, 'MetrosCrypt', message, QMessageBox.Yes | QMessageBox.No)
+        message_dialog = QMessageBox.question(self, 'MetrosCrypt', message, QMessageBox.Yes | QMessageBox.No)
         if message_dialog == QMessageBox.Yes:
             return True
         else:
@@ -482,8 +444,7 @@ class Application(QMainWindow):
         self.setWindowTitle('MetrosCrypt (v. {}).'.format(__version__))
         self.setWindowIcon(QIcon(IconBase64.iconWindow()))
         self.setGeometry(300, 300, 700, 300)
-        self.setWindowFlags(Qt.CustomizeWindowHint |
-                            Qt.WindowMinimizeButtonHint | Qt.WindowCloseButtonHint)
+        self.setWindowFlags(Qt.CustomizeWindowHint |Qt.WindowMinimizeButtonHint | Qt.WindowCloseButtonHint)
 
     # Centering window.
     def centerWindow(self):
@@ -507,8 +468,7 @@ if __name__ == '__main__':
     try:
         window = Application()
     except Exception as error:
-        QMessageBox.critical(None, 'MetrosCrypt',
-                             '[Unknown error]: {}'.format(error))
+        QMessageBox.critical(None, 'MetrosCrypt', '[Unknown error]: {}'.format(error))
         sys.exit()
     window.show()
     app.exec_()
