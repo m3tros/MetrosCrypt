@@ -114,16 +114,26 @@ If the contents of the file cannot be encrypted or decrypted, an error will be d
   <img src="https://user-images.githubusercontent.com/107058068/177599734-e9baddfd-e103-43ed-9280-7a4fed7338d9.png" alt="MetrosCrypt">
 </p>
 
-These examples use the text: `test`. Password: `12345678`.<br>
+The example uses text `test` and password `12345678`.<br>
 In the title of the program you can notice the format:  
 ```
 <action> — <file_path> — <program_info>
 ```
-```
-action       — Encrypt or Decrypt.
-file_path    — Path to input file.
-program_info — Information about the program itself. 
-```
+ 
+
+<table>
+   <tr>
+    <th>Element</th>
+    <th>Designation</th>
+ 
+   </tr>
+ 
+   <tr><td>action</td><td>Your choice of action to encrypt and decrypt.</td></tr>
+   <tr><td>file_path</td><td>Path to input file.</td></tr>
+   <tr><td>program_info</td><td>Information about the program itself. </td></tr>
+ 
+  </table>
+  
 
 #### Buttons
 There are two buttons at the bottom. Depending on the action you choose to encrypt or decrypt the text of the first button, it will change, it is responsible for launching the algorithm. The second button is responsible for closing the main window.
