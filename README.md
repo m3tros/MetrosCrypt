@@ -191,7 +191,6 @@ All software is provided in English with executable files, these parameters cann
 I usually compile my projects using the <a href="https://pypi.org/project/pyinstaller/">pyinstaller</a> compiler with the following parameters:
 ```
 pyinstaller -F MetrosCrypt.pyw
-
 ```
 Adding an icon for the executable file. You can use yours.
 ```
